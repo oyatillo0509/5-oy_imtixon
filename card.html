@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/card.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <header>
+          <div class="header-top">
+            <span>Скидка 10% по промокоду "ZAMOK" на все заказы до</span>
+            <a href="#">Обратный звонок</a>
+          </div>
+          <div class="header-main">
+            <div class="logo">
+              <img src="img/Logo.svg" alt="Logo" />
+            </div>
+            <nav>
+              <a href="#">Главная</a>
+              <div class="dropdown">
+                <a href="#" class="dropbtn">Каталог</a>
+              </div>
+              <a href="#">Оптовая продажа</a>
+              <a href="#">О нас</a>
+            </nav>
+            <div class="contact-info">
+              <img src="img/phone-call 1.svg" alt="" />
+              <span>+7 (966) 55 88 499</span>
+              <a href="#"><img src="img/like.svg" alt="like" /></a>
+              <a href="#"><img src="img/svat.svg" alt="savatcha" /></a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div id="cardWrapper">
+        <div class="cart">
+          <h2>Корзина</h2>
+          <div class="cart-item">
+            <img src="img/tav.svg" alt="mahsulot_rasmi" />
+            <div class="item-details">
+              <p>Дверной Замок Golden Soft для офиса</p>
+              <p class="gift">
+                + Подарок: <a href="#">“Приложение к замкам Golden Service”</a>
+              </p>
+            </div>
+            <div class="item-quantity">
+              <button class="quantity-btn">−</button>
+              <input type="text" value="2" />
+              <button class="quantity-btn">+</button>
+            </div>
+            <div class="item-price">33 000₽</div>
+            <button id="remove-btn" class="remove-btn">Удалить</button>
+          </div>
+          <div class="cart-summary">
+            <p>Итого: <span class="total-price">66 000₽</span></p>
+            <button class="checkout-btn">Оформить заказ</button>
+            <button class="continue-shopping-btn">Продолжить покупки</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/card.js"></script>
+  </body>
+</html>
